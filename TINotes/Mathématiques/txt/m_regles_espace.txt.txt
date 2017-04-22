@@ -1,0 +1,13 @@
+﻿Dans l'espace, deux droites sont non coplanaires ssi :
+1 - elles ne sont pas confondues et; 
+2 - elles ne sont pas parallèles (vecteurs directeurs différents) et; 
+3 - elles ne sont pas sécantes (pas de point d'intersection).
+
+Soit A un point de coordonnées (x0;y0;z0), vec(u) un vecteur non nul de coordonnées (a;b;c) et D la droite passant par A et de vecteur directeur vec(u).
+Un point M de coordonnées (x;y;z) appartient à la droite D si et seulement si il existe un réel t tel que vec(AM)=t*vec(u) soit encore si et seulement si il existe un réel t tel que :
+{
+x=x0+ta
+y=y0+tb
+z=z0+tc
+}
+

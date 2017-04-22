@@ -1,5 +1,5 @@
 # TiTools
-_Version : 0.2.1 (22/04/17 17:58)_
+_Version : 0.3 (22/04/17 21:40)_
 
 TiTools est un répertoire contenant un ensemble d'outils fonctionnant avec une calculatrice TI, nécessaires pour vous permettre de gagner du temps.
 
@@ -13,8 +13,16 @@ Tutoriel de transfert de notes __(écrites avec **"TIDoc En"** ou dans "TiNotes/
 Tutoriel de transfert de programmes __("TiPrograms/")__ : https://www.youtube.com/watch?v=nv7srFp6xnY.
 
 ## Programmes :
-- TiPrograms/Symbolic : ajoute un lot de fonctionnalités dans le menu "MATH" dont la plus utile est certainement de **dériver** une fonction!
-- TiPrograms/Prettypt : Met en forme les longs résultats (exemple : affichage des divisions sous forme de fraction).
+- TIApps/Symbolic : ajoute un lot de fonctionnalités dans le menu "MATH" dont la plus utile est certainement de **dériver** une fonction!
+- TIApps/Prettypt : Met en forme les longs résultats (exemple : affichage des divisions sous forme de fraction).
+
+## Dossiers :
+- _TIDoc En_ contient le logiciel pour convertir du texte écrit sur ordinateur en un programme consultable sur calculatrice.
+- _TINotes_ contient des notes sous forme de fichier texte, ordonnées par matière.
+- _TIProgrammes_ contient les programmes incluant les notes, directement transférables, ordonné par matière.
+- _TiOdT_ contient le logiciel TI pour transférer les programmes (à installer).
+- _TIPDF_ contient des indications sur les différentes fonctions de la calculatrice, ordonné par matière.
+- _TIApps_ contient des applications TI.
 
 ## Fonctionne avec :
 - TI 84+ (testé, fonctionnel)
