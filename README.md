@@ -1,5 +1,5 @@
 # TiTools
-__Version : 0.2 (22/04/17 17:55)__
+_Version : 0.2.1 (22/04/17 17:58)_
 
 TiTools est un répertoire contenant un ensemble d'outils fonctionnant avec une calculatrice TI, nécessaires pour vous permettre de gagner du temps.
 
@@ -9,6 +9,7 @@ Programmes, notes de cours et outils de transfert pour votre calculatrice TI son
 Les logiciels à l'intérieur de TIOdt (Outils de transfert) sont à installer. Ils vous permettent de transférer les programmes depuis votre ordinateur vers votre calculatrice.
 
 Tutoriel de transfert de notes __(écrites avec **"TIDoc En"** ou dans "TiNotes/")__ : https://berwick.fr/blog/2017/02/09/ajouter-ses-lecons-ecrites-sur-pc-sur-une-calculatrice-ti/.
+
 Tutoriel de transfert de programmes __("TiPrograms/")__ : https://www.youtube.com/watch?v=nv7srFp6xnY.
 
 ## Programmes :
