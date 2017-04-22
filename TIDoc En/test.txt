@@ -1,0 +1,25 @@
+<center><inverse>WELCOME<inverse>
+TiDoc v1.0 beta version
+Juillet 2004<center>
+
+et en plus c gratuit :)
+
+<center>Si vous savez déjà plus quoi faire, appuyer sur la touche Bas.<center>
+
+et voici une petite image:
+<IMG:\ccm.gif:60%:642>
+la même (centrée et inversée)
+<center><inverse><IMG:\ccm.gif:50%:642><inverse><center>
+
+pour centrer on écrit ça:
+<0x3C>center>
+pour inverser on écrit ça:
+<0x3C>inverse>
+
+mais peut aussi faire des images plus grosses héhé :)
+<IMG:ccm.gif:165%:642>
+
+Aller, @++ les gens et j'espère que vous trouverez plein de belles utilisations à ce programme.
+
+PS: oublier pas de m'écrire à
+<inverse>anthony.combe@insa-lyon.fr<inverse>
