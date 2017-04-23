@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>Lbl 2
+Disp "X}N(,σx²)
+Input "=",M
+Input "σx=",E
+Input "a=",A
+Input "b=",B
+Fix 4
+1→P
+A→C:A→F
+B→D:B→G
+Lbl 0
+F→A:G→B
+FnOff:AxesOff
+0→Xmin:0→Ymin
+1→ΔX:1→ΔY
+Horizontal 6
+Horizontal 30
+Horizontal 40
+Horizontal 52
+Horizontal 62
+Text(24,24,"PROBABILITES
+Text(57,2,"a&lt;X&lt;b   X&lt;a   X&gt;a  c / P(X&lt;c)=a
+{0,22,37,52,94
+For(I,1,5
+Pt-Off(Ans(I),6
+Line(Ans(I),0,Ans(I),5
+End
+Text(2,28,"LOI NORMALE
+Text(13,1,"X
+Line(15,44,15,49
+Line(19,43,19,48
+Line(16,47,18,45
+Pt-On(14,43:Pt-On(20,49
+Pt-On(24,42:Pt-On(24,50:Line(23,43,23,49
+Pt-On(93,50:Pt-On(93,42:Line(94,49,94,43
+Text(13,25,M
+Text(13,61,E
+Text(13,55,",
+Pt-On(6,45:Line(6,46,7,47:Line(8,47,10,45:Line(11,45,12,46:Pt-On(12,47
+Text(34,1,"CLEAR
+Text(34,27,"QUITTER
+Text(41,5,"2nd
+Text(41,27,"CREDITS
+Text(49,90,"Dec
+Text(48,2,"⁺
+Line(4,8,4,12
+Lbl 1
+Repeat max(K={11,12,13,14,15,21,24,26,45
+getKey→K
+End
+If K=45
+Then
+ZStandard:Float:AxesOff:ClrHome
+Return
+End
+If Pmax(K={24,26
+Then
+0→P
+Text(24,24,"    INTERVALL
+Text(57,2,"  B&gt;N      N&gt;N'       Ua      FLUCT  CONF
+{18,37,55,76
+For(I,1,4
+Pt-Off(Ans(I),6
+Line(Ans(I),0,Ans(I),5
+End
+Pt-On(22,6:Pt-On(52,6
+Goto 1
+End
+0→Z
+1→θ
+If K=21
+Then
+ClrDraw
+Repeat getKey
+Text(2,28,"LOI NORMALE
+Text(20,25,"PAR MINGERTON
+Text(32,30,"VERSION 1.0
+Text(44,34,"MAI  2015
+End
+ClrDraw
+Goto 0
+End
+If P
+Then
+"e^(-(X-M)²/2E²)/E√2π→Y₁
+FnOff 
+0→Ymin:1/E√2π→Ymax
+M-3E→Xmin:M+3E→Xmax
+If max(K={14,15
+Then
+Pause solve(fnInt(Y₁,X,M-10E,X)-A,X,M
+Goto 0
+End
+If K=12
+Then
+A→D:Xmin→C
+.5→Z
+If A&lt;M
+Then
+-1→θ:M-&gt;B
+Else
+A→B:M→A
+End
+End
+If K=13
+Then
+Ans→D:A→C
+.5→Z
+If A&gt;M
+Then
+-1→θ:A→B:M→A
+Else
+M→B
+End
+End
+Split:AxesOn
+Disp Z+θfnInt(Y₁,X,A,B
+Shade(0,Y₁,C,D
+Output(3,1,"1:CALCUL
+Output(4,1,"2:PARAMETRES
+Repeat max(Ans={92,93
+getKey
+End
+FullScreen
+If Ans=93:Goto 2
+End
+If not(P
+Then
+1→P
+If K=15
+Then
+Input "F=",I
+Input "n=",J
+(√J)
+Pause {I-Ans,I+Ans
+End
+If max(K={13,14
+Then
+Input "NIV DE CONFIANCE",I
+1.96
+If I=.95:Goto 4
+2.5758
+If I=.99:Goto 4
+solve(fnInt(Y₁,X,M-10E,X)-.5(1+I),X,M
+Lbl 4
+If K=13:Pause Ans
+If K=14
+Then
+Input "n=",I
+Input "P=",J
+If max(5&gt;{I/6,IJ,I-IJ
+Goto 0
+Ans√((J-J²)/I
+Pause {J-Ans,J+Ans
+End
+End
+If K=11
+Then
+Disp "X}B(n,P)
+Input "n=",I
+Input "P=",J
+Disp "Z}N(0,1)","Z=(X-nP)/√(nPQ)","nP=",IJ,"√(nPQ)=
+Pause √(IJ(1-J
+End
+If K=12
+Then
+Disp "Z}N(0,1)","Z=(X-)/σx","=",M,"σx=
+Pause E
+End
+End
+Goto 0</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>NORMA82</string>
+	<key>device type</key>
+	<string>TI-82</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>
