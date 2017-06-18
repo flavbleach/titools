@@ -1,0 +1,5 @@
+Equations horaires :
+x(t)=v*cos(alpha)*t
+y(t)=(-1/2)*g*t^2+v*sin(alpha)*t
+
+Si vitesse vers le bas, on inverse cos et sin.

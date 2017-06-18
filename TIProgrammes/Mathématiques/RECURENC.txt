@@ -1,0 +1,10 @@
+Soit P(n) : [propriete a demontrer]
+
+Initialisation : Vérifions que P(0) est vraie :
+P(0) : [verifier avec n=rang minimum (0)]
+
+Hérédité : Soit un entier n>=0.Supposons que P(n) vraie et montrons que P(n+1) est vraie.
+[rajouter à la propriété, la propriété avec n+1]
+[montrer que c'est égal à la propriété avec n+1]
+
+Conclusion : P(0) est vraie et P(n) est héréditaire à partir du rang 0 donc par récurrence, P(n) est vraie pour tout entier n>=0.

@@ -1,0 +1,16 @@
+Force d'intéraction gravitationnelle.
+---------------
+F = G*((m_a*m_b)/d^2)
+v = sqrt((G*M)/d)
+
+G = 6.67*10^-11 m^3.kg^-1.s^-2
+1 Newton = 1 kg.m.s^-2
+
+Mouvement circ.
+---------------
+
+a_normal =
+(v^2/R).vec(n)
+
+a_tangent. =
+(dV/dt).vec(t)

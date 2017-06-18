@@ -1,5 +1,5 @@
 # TiTools
-_Version : 0.4 (23/04/17 22:10)_
+_Version : 0.5 (18/06/17 13:00)_
 
 TiTools est un répertoire contenant un ensemble d'outils fonctionnant avec une calculatrice TI, nécessaires pour vous permettre de gagner du temps.
 
@@ -28,3 +28,6 @@ Tutoriel de transfert de programmes __("TIApps/")__ : https://www.youtube.com/wa
 - TI 84+ (testé, fonctionnel)
 - TI 83+
 - TI 82+
+
+## Ne fonctionne pas avec :
+- TI 83 Premium CE

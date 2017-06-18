@@ -1,0 +1,262 @@
+Clear Entries
+ClrAllLists
+
+Lbl ME
+ClrHome
+Menu("Menu Principal - SI 1.0","Produit vectoriel",XD,"Trajectoires",TR,"Vecteurs",VE,"Torseurs",NN,"Eléctricité",PD,"Rendement",AA,"Quitter",J
+
+Lbl XD
+ClrHome
+Menu("Produit Vectoriel","Calcul",AV,"Norme",NV,"Retour",ME
+
+Lbl AV
+Prompt X,Y,Z,J,K,L
+YL-ZK?O
+ZJ-LX?M
+XK-YJ?N
+ClrHome
+Disp O,M,N
+Pause 
+Goto ME
+
+Lbl NV
+ClrHome
+Menu("Norme","Coordonnées",PC,"Angle",PN,"Retour",XD
+
+Lbl PC
+Prompt X,Y,Z
+Disp v(X²+Y²+Z²)
+Pause 
+Goto ME
+
+Lbl PN
+Prompt U,V,A
+Disp U*V*sin(A)
+Pause 
+Goto ME
+
+Lbl J
+Stop
+
+Lbl TR
+ClrHome
+Menu("Trajectoires","Rappels mvnt variés",TL,"Rappels mvnt uniformes",TU,"Rappels rotation",TO,"Retour",ME
+
+Lbl TL
+Disp "Formule Utile:"
+Disp "V(T)²=V0²+2A(X(T)-X0)"
+Pause 
+Goto TR
+
+Lbl TU
+Disp "A=0 si uniforme"
+Disp "A=Accéleration"
+Disp "V(T)=AT+V0"
+Disp "X(T)=1/2*AT²+V0T+X0"
+Pause 
+Goto TR
+
+Lbl TO
+Disp "A=Acc angulaire"
+Disp "V=Vitesse angulaire"
+Disp "X=Angle à l'instant t"
+Goto TU
+
+Lbl VE
+ClrHome
+Menu("Vecteurs","Norme",PC,"Projections Vecteurs",VP,"Produits Scalaire",YA,"Retour",ME
+
+Lbl VP
+ClrHome
+Menu("Projections","Cours",CV,"Sur X",CX,"Sur Y",CY,"Retour",VE
+
+Lbl CV
+Disp "Proj sur X:"
+Disp "ab=||u||*cos(alpha)"
+Disp "Proj sur Y:"
+Disp "ab=||u||*sin(alpha)"
+Pause 
+Goto VP
+
+Lbl CX
+Prompt U,A
+Disp U*cos(A)
+Pause 
+Goto ME
+
+Lbl CY
+Prompt U,A
+Disp U*sin(A)
+Pause 
+Goto ME
+
+Lbl YA
+ClrHome
+Menu("Produits Scalaires","Cours",YC,"Calcul",YS,"Retour",VE
+
+Lbl YC
+Disp "Le produit scalaire est"
+Disp "noté U.V"
+Disp ""
+Disp "Il est calculé par"
+Disp "U.V=||U||*||V||*cos(U,V)"
+Pause 
+Goto YA
+
+Lbl YS
+ClrHome
+Menu("Calcul scalaire","Normes",YN,"Coordonnées",YL,"Retour",YA
+
+Lbl YN
+Prompt U,V,A
+Disp U*V*cos(A)
+Pause 
+Goto ME
+
+Lbl YL
+Prompt X,Y,Z,L,M,N
+Disp X*L+Y*M+Z*N
+Pause 
+Goto ME
+
+Lbl NN
+ClrHome
+Menu("Torseurs","Moment",NO,"Liaisons Parfaites",FD,"Retour",ME
+
+Lbl NO
+ClrHome
+Menu("Moments","Cours",MC,"Bras de levier",MB,"Retour",NN
+
+Lbl FD
+ClrHome
+Menu("Liaisons Parfaites","Ponctuelle",F0,"Linéaire-Rectiligne",F1,"Linéaire-Annulaire",F2,"Rotule",F3,"Pivot Glissant",F4,"Suite",G1,"Quitter",NN
+
+Lbl G1
+ClrHome
+Menu("Liaisons Parfaites","Appui Plan",F5,"Pivot",F6,"Glissière",F7,"Hélicoïdale",F8,"Rotule à Doigt",F9,"Encastrement",10,"Retour",FD
+
+Lbl F0
+Disp "X 0 0"
+Disp "0 0 0"
+Disp "Point de contact A"
+Disp "Normale x"
+Pause 
+Goto NN
+
+Lbl F1
+Disp "X 0 0"
+Disp "0 0 N"
+Disp "Ligne de contact A;y"
+Disp "Normale x"
+Pause 
+Goto NN
+
+Lbl F2
+Disp "X 0 Z"
+Disp "0 0 0"
+Disp "Centre de la sphère A"
+Disp "Axe A;Y"
+Pause 
+Goto NN
+
+Lbl F3
+Disp "X Y Z"
+Disp "0 0 0"
+Disp "Centre de la sphère A"
+Pause 
+Goto NN
+
+Lbl F4
+Disp "0 Y Z"
+Disp "0 M N"
+Disp "Centre du cylindre A"
+Disp "Axe A;X"
+Pause 
+Goto NN
+
+Lbl F5
+Disp "X 0 0"
+Disp "0 M N"
+Disp "Barycentre A"
+Disp "Normale x"
+Pause 
+Goto NN
+
+Lbl F6
+Disp "X Y Z"
+Disp "0 M N"
+Disp "Centre du cylindre A"
+Disp "Axe A;X"
+Pause 
+Goto NN
+
+Lbl F7
+Disp "0 Y Z"
+Disp "L M N"
+Disp "Centre A"
+Disp "Axe A;X"
+Pause 
+Goto NN
+
+Lbl F8
+Disp "k.L Y Z"
+Disp "L M N"
+Disp "Centre de l'hélice A"
+Disp "Axe A;X"
+Pause 
+Goto NN
+
+Lbl F9
+Disp "X Y Z"
+Disp "0 0 N"
+Disp "Centre de la sphère A"
+Disp "Rotation bloquée en Z"
+Pause 
+Goto NN
+
+Lbl 10
+Disp "X Y Z"
+Disp "L M N"
+Disp "Barycentre de la surface"
+Pause 
+Goto NN
+
+Lbl MC
+Disp "Un moment est une action "
+Disp "mécanique (force) qui a "
+Disp "tendance à créer un "
+Disp "mouvement de rotation."
+Disp ""
+Disp "Le moment résultant est"
+Disp "égal à la somme des moments"
+Disp "en un point."
+Pause 
+Goto NO
+
+Lbl MB
+Prompt F,D
+Disp F*D
+Pause 
+Goto ME
+
+Lbl PD
+ClrHome
+Menu("Eléctricité","Cours",EC,"Retour",ME
+
+Lbl EC
+Disp "Loi d'Ohm: U=R*I"
+Disp "P=U*I"
+Disp "U=Somme des U"
+Disp "I=Somme des I"
+Disp "Réq=Somme des R"
+Pause 
+ClrHome
+Disp "1/Réq=Somme des 1/R"
+Disp "Pont diviseur de tension:"
+Disp "U2=U*(Réq/(R1+Réq))"
+Disp "Pont diviseur de courant:"
+Disp "I2=I*(Réq/(R1+Réq))"
+Pause 
+Goto PD
+
+Lbl AA

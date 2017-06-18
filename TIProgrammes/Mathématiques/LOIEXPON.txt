@@ -1,0 +1,8 @@
+Variable aléatoire à densité T suit une loi exponentielle de paramètre lambda (L).
+
+f(x)=L*e^(-L*x)
+E(T)=1/L
+
+P(a<=T<=b)= e^(-L*a) - e^(-L*b)
+P(T<=b)= 1-e^(-L*b)
+P(T>=a)= e^(-L*a)
