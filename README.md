@@ -1,5 +1,5 @@
 # TiTools
-_Version : 0.5 (18/06/17 13:00)_
+_Version : 0.6 (19/06/17 20:30)_
 
 TiTools est un répertoire contenant un ensemble d'outils fonctionnant avec une calculatrice TI, nécessaires pour vous permettre de gagner du temps.
 

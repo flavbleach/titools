@@ -1,0 +1,19 @@
+Doppler.
+
+Approchant :
+
+V_e = V_s*(1-(f_e/f_r))
+f_e / f_r = (1-(V_e/V))
+f_r = f_e * (C/(C-V))
+V = ((f_r-f_e)*C)/f_r
+
+f_r=f_e*(((2*V)/C)+1)
+
+Eloignement :
+
+f_e/f_r = (1+(V_e/V_r))
+f_r = f_e*(C/(C+V))
+
+V_mobile = V_radiale/cos(angle)
+
+V = frequence * lambda
