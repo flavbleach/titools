@@ -1,0 +1,35 @@
+Arithmétique :
+====
+
+U_n+1 = U_n+r
+U_n=U_0+n*r
+U_n=U_p+(n-p)*r
+(Par exemple U_76 en fonction de U_4)
+
+Géométrique :
+====
+
+v_n+1 = q*v_n
+v_n = v_0*q^n
+v_n = v_p*q^(n-p)
+
+Limite suite géo :
+====
+
+Si -1<q<1, alors lim (q^n) quand n=> (+ infini) = 0
+Quand, s>1, tend vers + infini.
+
+Sommes:
+====
+
+Somme de U_p allant de p=0 à n = (n+1)*((U_0+U_n)/2)
+
+Somme de V_p allant de p=0 à n = V_0 * ((1-q^(n+1))/(1-q))
+
+Suites monotones :
+====
+
+Si U_n est croissante et majorée, alors elle converge.
+Si décroissante et minorée, converge.
+Si croissante et non majorée, tend vers + infini.
+Si décroissante et non minorée, tend vers - infini.
