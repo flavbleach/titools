@@ -1,0 +1,38 @@
+Ecarts type :
+1 sigma = 0.683.
+2 sigma = 0.954.
+3 sigma = 0.997.
+
+Probabilités conditionnelles :
+p_B(A) = (p(A et B))/(p(B))
+P(A ou B) = P(A) + P(B) - P(A et B).
+
+Loi binomiale :
+[Conditions loi binomiale]
+*Expériences indépendantes l'une de l'autre.
+[Deux événements A et B sont indépendants quand P(B si A) = P(B)]
+*Deux issues.
+*Répétition d'évènements.
+p(X = K) Cnk(n k)*p^k*(1-p)^(n-k).
+E(X)=n*p
+V(x)=n*p(1-p)
+
+Loi uniforme :
+f(x)=1/(b-1) sur une intervalle [a;b].
+E(X)=Intégrale[de a à b]t*f(t)*dt=(a+b)/2
+
+Loi exponentielle :
+L = lambda
+f(x)=L*e^(-L*x)
+p(X>=t)=e^(-L*t), primitive : [-e^(-L*t)]
+p(X<=t)=1-e^(-L*t)
+E(X)=1/L
+
+Loi normale :
+f(x)=(1/sqrt(2*pi))*e^(-x^2/2)
+N suit la loi normale lorsque Z = (X-moyenne)/(ecart-type) soit la loi normale centrée réduite N(0;1).
+
+Intervalle de fluctuation asymptotique :
+Alpha = 0.05.
+Quand 1-alpha = 95%, u_alpha = 1.96.
+I_0.05 = [ p-1.96*(sqrt(p*(1-p))/sqrt(n)) ; p+1.96*(sqrt(p*(1-p))/sqrt(n)) ]

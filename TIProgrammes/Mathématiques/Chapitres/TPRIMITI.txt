@@ -1,0 +1,22 @@
+f       => f'
+ku      => ku'
+u+v     => u'+v'
+u*x     => u'v+uv'
+(u/v)   => (u'v-uv')/(v^2)
+u^n     => nu'*u^(n-1)
+1/u^n   => (-n*u')/(u^(n+1))
+sqrt(u) => (1/2)*(u'/sqrt(u))
+f(ax+b) => af'(ax+b)
+
+e^(a*x)   => (1/a)*e^(a*x)
+1/sqrt(x) => 2*sqrt(x)
+cos(ax+b) => (1/a)*sin(ax+b)
+sin(ax+b) => -(1/a)*cos(ax+b)
+u'u^n     => (1/(n+1))*u^(n+1)
+u'/u^2    => -u'/u
+u'/u^n    => (-1/(n-1))*(1/(u^n-1))
+u'/u      => ln(u)
+u'/sqrt(u)=> 2*sqrt(u)
+u'*e^u    => e^u
+u'*cos(u) => sin(u)
+u'*sin(u) => -cos(u)

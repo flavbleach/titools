@@ -1,0 +1,74 @@
+Formules :
+==========
+
+Colinéarité : xy'-x'y=0
+Produit scalaire : xx'+yy'
+
+Equations paramétriques de droites.
+==========
+
+Soit A(xa;ya;za) un point de l'espace et \vec (u)(alpha, beta et gamma).
+Soit D(A,\vec (u))
+
+M(x;y;z) appartient à D si \vec (AM) et \vec (u) sont colinéaires.
+<=> il existe un réel k tel que \vec (AM) = k * \vec (u).
+
+{ x - xa = k*alpha
+{ y - ya = k*beta
+{ z - za = k*gamma
+
+Equations cartésienne d'un plan.
+==========
+
+Tout plan P d'équation ax+by+xz+d=0 admet un vecteur normal \vec n(a;b;c)
+
+Si on a un vecteur normal de coordonnées \vec n(a;b;c), le plan a une équation ax+by+xz+d=0.
+
+Définitions :
+===========
+* L'intersection de deux plans est une droite.
+* Deux plans confondus ont pour intersection un plan.
+* Un plan et une droite non parallèles ston sécants en un point.
+* Une droite est orthogonale à un plan lorsqu'elle est orthogonale à toutes les droites de ce plan.
+	
+
+Exemple:
+===
+
+1. Soit P: 2x-4y+6z-9=0.
+Déterminer un vecteur n normal à P et un point A du plan.
+
+\vec n(2;-4;6)
+On fixe 2 des 3 inconnues.
+Par exemple : x=1 et y=2.
+<=> 2*1-2*4+6z-9=0
+<=> z=15/6
+
+
+2. Déterminer l'equ. cart. du plan P passant par A(4;0;-1) et normal à \vec n(2;-1;3).
+
+On a P : 2x-y+3z+d=0.
+On replace x, y, z par les coordonnées de A pour trouver d.
+
+3. Pour trouver l'équation d'intersection de deux plans :
+P: x-2y+z-1=0 et Q: 2x-3y-z+4=0
+{ x-2y+z-1=0
+{ 2x-3y-z+4=0
+Poser le système, additionner les deux équations.
+{ 3x-5y+3=0
+{ 2x-3y-z+4=0
+Fixer une des valeurs (x, y ou z)
+Par exemple, y=t avec t appartient à R.
+{ 3x=5y-3
+{ y=t
+{ z=2x-3y+4
+Puis,
+{ x = (5/3)*t-1
+{ y = t
+{ z = 2((5/3)*t-1)-3t+4
+Puis,
+{ x = (5/3)*t-1
+{ y = t
+{ z = (1/3)*t+2
+On reconnait les coordonnées du vecteur directeur de la droite : [5/3;1;1/3]
+Et un point de la droite : [-1;0;2]

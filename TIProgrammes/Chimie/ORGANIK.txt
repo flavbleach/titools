@@ -1,0 +1,35 @@
+CONFIGURATIONS :
+================
+
+- stéréoisomères : molécules ,correspondant à la même formule développée, et qui dans l'espace sont non superposables quelles que soient leurs conformations ( rotations autour des liaisons sigma)
+- il y a deux sortes de stéréoisomères : 
+- les énantiomères , images l'un de l'autre dans un miroir 
+- les diastéréoisomères : non images l'un de l'autre dans un miroir
+
+REACTIONS :
+===========
+
+Substitution: Un atome, ou groupe d’atomes, est remplacé par un autre atome ou groupe d’atomes.
+
+ |           |
+-C-A + B -> -C-B + A 
+ |           |
+
+Addition: des atomes, ou des groupes d’atomes, sont ajoutés de part et d’autre d’une liaison multiple(ou d’une liaison d’un cycle).
+               X Y
+ | |           | | 
+ C=C + X-Y -> -C-C-
+ | |           | |
+
+Élimination: des atomes, ou des groupes d’atomes portés par de part et d’autres d’une liaison, sont éliminés pour former une liaison multiple(ou un cycle.
+
+ X Y
+ | |     | |
+-C-C- -> C=C + XY
+ | |     | |
+
+
+Type de réaction	Nombre de réactifs et produits
+substitution	2 réactifs -> 2 produits
+addition	2 réactifs -> 1 produit
+élimination	1 réactif-> 2produits

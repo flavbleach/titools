@@ -1,0 +1,78 @@
+1 PREMIÈRES DÉFINITIONS
+=======
+
+Définition 1 : Un plan est défini par trois points non-alignés. Autrement dit, soit trois points A, B et C non-alignés. Ces trois points définissent un plan que l'on appellera (ABC).
+
+Définition 2 : Si une droite (D) contient deux points A et B d'un plan (P), alors cette droite est incluse dans ce plan.
+
+Définition 3 : soit A, B, et C trois points non-alignés st D un point quelconque de l'espace. Les quatre points sont coplanaires si et seulement si D est un point du plan défini par (ABC).
+
+Définition 4 : soit (P) et (P') deux plans distincts. Si ces deux plans ont un point en commun, alors leur intersection est une droite qui passe par ce point.
+
+2 PARALLÉLISME DE DROITES ET DE PLANS
+=======
+
+Parallélisme entre deux plans : soit deux plans (P) et (P'). Si ces deux plans sont parallèles, ils sont soit confondus, soit il n'ont aucun point commun.
+
+Parallélisme entre deux droites : soit deux droites (d) et (d'). Si ces deux droites sont parallèles, elles sont soit confondues, soit coplanaires ( càd appartenant au même plan) et sans point commun.
+
+Parallélisme entre un plan et une droite : soit (d) une droite et (P) un plan. Si (d) et (P) sont parallèles, alors soit (d) est contenue dans (P), soit (d) et (p) n'ont aucun point commun.
+
+Projection sur un plan parallèlement à une droite : Soit (P) un plan, (d) une droite qui coupe le plan (P) et A un point de l'espace. Ainsi, la droite parallèle à (d) passant par le point A coupe le plan (P) en b. On dit alors que le point b est le projeté de A sur le plan P parallèlement à la droite (d).
+
+Des deux premières définitions, il est possible de tirer quatre conséquences :
+---
+Si deux droites sont parallèles, alors tout plan qui coupe l'une des droites coupe l'autre.
+
+Si deux plans (P) et (P') sont parallèles, alors tout plan qui coupe (P) coupe également (P') et leurs intersections sont des droites parallèles.
+
+Si deux droites (resp. deux plans) sont parallèles à une troisième, alors elles sont parallèles entre elles (resp. les deux plans sont parallèles entre eux).
+
+Soit A un point quelconque de l'espace. Il passe :
+---
+une seule droite parallèle à une droite donnée.
+un seul plan par rapport à un plan donné.
+De même, de la dernière définition, il est possible se tirer trois conséquences :
+
+Soit (d) une droite contenue dans un plan (P). Si (d) est parallèle à une droite (d'), alors la droite (d') est parallèle au plan (P).
+Si une droite (d) est parallèle à deux plans (P) et (P') qui sont sécants, alors la droite (d'), intersection des deux plans, est parallèle à (d).
+Soit (P) un plan défini par deux droites sécantes. Si ces deux droites sont parallèles à un plan (P'), alors (P) est parallèle à (P').
+
+3 ORTHOGONALITÉ DE DROITES ET DE PLANS
+=======
+
+Droites orthogonales :
+
+Dans l'espace, on parle de droites orthogonales lorsque l'on peut trouver un point A tel que les parallèles à ces droites passant par A sont perpendiculaires.
+
+Remarque : deux droites orthogonales ne sont pas nécessairement coplanaires ( elles ne sont pas obligées d'appartenir au même plan et donc de se croiser).
+
+Droites orthogonales à un plan :
+
+Soit (d) une droite et (P) un plan. (d) est orthogonale à (P) si elle est orthogonales à toutes les droites contenues dans ce plan.
+
+3 conséquences :
+---
+
+pour qu'une droite (d) soit parallèle à un plan (P), il suffit qu'elle soit orthogonale à deux droites sécantes de (P).
+il existe une unique droite passant par un point donné et orthogonale à un plan donné.
+il existe un unique plan passant par un point donné et orthogonal à une droite donnée.
+
+4 ORTHOGONALITÉ ET PARALLÉLISME DE DROITES ET DE PLANS
+=======
+
+Si deux plans sont orthogonaux à une même droite, ils sont parallèles entre eux.
+
+Si deux plans sont parallèles entre eux, toute droite orthogonale à l'un est orthogonale à l'autre.
+
+Si deux droites sont parallèles, tout plan à l'une est orthogonal à l'autre.
+
+Si deux droites sont orthogonales à un même plan, elles sont parallèles entre elles.
+
+5 PLAN MÉDIATEUR ET PROJETÉ ORTHOGONAL D'UN POINT
+=======
+
+Définition : Soit un segment [BC] et O son milieu. On appelle plan médiateur de [BC] le plan passant par O et orthogonal à la droite (BC).
+Remarque : Si un point M appartient au plan médiateur de [BC], alors on a BM = CM.
+
+Définition : Soit B un point et (P) un plan ne contenant pas B. On appelle b le point appartenant au plan (P) tel que la droite (Bb) soit orthogonale au plan (P). b est alors appelé le projeté orthogonal du point B sur le plan (P).

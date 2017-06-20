@@ -1,0 +1,16 @@
+normalcdf:
+Normal cumulative distribution.
+Calculates the normal distribution probability using lower bound e upper bound.
+normalcdf(lower, upper, mu = 0, sigma = 1)
+Entre -2 et -1 par exemple, retourne 0.1359.
+
+invnormal:
+Inverse Cumulative Standard Normal Distribution.
+invnormal(area=0.35, mu = 0, sigma = 1)
+Point à partir de la gauche vers la droite.
+Si area = 0.75, sera égal à 0.6745,
+
+normalpdf:
+Normal Probability Density Function.
+normalpdf(x=-2,mu=0,sigma=1)
+<=> 0.054 dans ce cas.
