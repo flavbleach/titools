@@ -1,0 +1,119 @@
+Couple de sortie en fonction du rendement et du rapport de réduction
+Cs=(Ce/r)*rendement
+
+Diamètre d'une roue dentée :
+D = m * Z avec m le module en mm et Z le nombre de dents.
+
+Vitesse de déplacement d'une vis en translation :
+V = (p*w)/(2pi)
+p le pas de la vis en m
+w la vitesse angulaire
+
+Déplacement de l'écrou (m):
+x = p*THETA*(1/(2*pi))
+p le pas,
+THETA l'angle de rotation de la vis en rad.
+
+rendement=P_sortie/P_entree=P_utile/P_absorbée
+rendement=(C_s*W_s)/(C_e*W_e)=(C_s/C_e)*r
+
+[THERMIQUE]
+P=V*T*k
+[ELEC]
+P=U*I
+E_c = (1/2)*m*v^2
+[Air d'un disque]
+A=pi*r^2=pi*(d^2/4)
+[Ressort]
+k=F/f; k en Nm (raideur).
+
+pression = F/S
+1 Bar = 100 000 Pascals
+
+V=w*R
+v=p*(N/60)
+p le pas de la vis en m (par tour)
+n la fréquence de rotation en tour/min
+
+w=V/R
+P=C*w
+P=F*V
+[TRAVAIL]
+E=F*d
+[DEBIT VOLUMIQUE]
+Q=V*s
+[Bras de levier]
+Moment en A dû à F = F*L.
+Avec L le bras de levier.
+
+=====
+PFD: MTR
+
+acceleration = delta v/ delta t
+
+PFD/ Mouvement de translation rectiligne.
+Theoreme resultante dynamique.
+somme forces = m*acc_g
+
+PFD/ Mouv. TRANSLATION rectiligne.
+Théorème du moment dynamique
+Somme des moments_en_G dû aux \vec(F_ext) = \vec(0).
+
+PFD/ Statique : 
+Theoreme résultante.
+somme \vec(forces_ext) = \vec(0).
+Theoreme moment statique :
+Somme des \vec(moments en G dû à \vec(F_ext)) = \vec(0).
+
+PFD/ Mouvement de ROTATION autours d'un axe fixe :
+Somme des moments_en_G dû aux \vec(F_ext) = J_G * \vec(w).
+J_G = (m*r^2)/2 pour un cylindre tournant autours de son axe.
+J_G le moment d'inertie en m^2.kg.
+\vec(w) l'accélération angulaire en rad/s^2.
+
+\vec(moment en G dû à \vec(P)) = \vec(Moment en F dû à P) + [ \vec(FG) vectoriel \vec(P) ].
+
+MTRUV:
+v(t) = v_0 + a_0*t
+v(t) = acc_i * (t_fin - t_i) + v_i
+a(t) = acc_i
+x(t) = (1/2)*acc_i*t^2 + v_i*t+x_i
+
+MRUV:
+alpha(t) = alpha_0 (rd/s^2)
+w(t) = alpha_0 * t (rd/s)
+theta(t) = (1/2)*alpha_0*t^2 (rad).
+
+====
+Résistance des mat. :
+
+M_1 = ténacité (MPa.m^(1/2)) / Module d'Young (MPa).
+M_2 = E/rho
+E module de young
+rho en kg/m^3
+
+E = contrainte(MPa) / epsilon
+epsilon = delta L / L0.
+epsilon l'allongement relatif.
+
+Re = E (pente jusqu'à déformation).
+Rm, la résitance avant rupture.
+
+Contrainte traction :
+contrainte (MPa) = F / S (mm^2).
+
+Contrainte cisaillement / Torsion :
+Tau = (M_T*rho)/I0
+M_T en moment de torsion en N.mm.
+I_z = (pi*D^4)/32 [cercle].
+I_z = (b*h^3)/12
+rho le rayon (en mm).
+
+Contrainte torsion :
+Tau(r)=(M_g/I_z)/r
+
+Contrainte flexion :
+contrainte normale = (M_f*y)/I_z
+
+Rpe (coefF. sécurité) = Re/k.
+k le coeff de sécurité.

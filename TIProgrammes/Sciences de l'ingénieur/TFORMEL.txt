@@ -1,0 +1,27 @@
+CAN :
+============
+Un CNA est un dispositif qui transforme une information numérique en un signal analogique. L’information analogique peut être un courant ou une tension. L’information numérique se présente sous la forme d’un mot de n bits (8, 10, 12, 14, 16 bits en général).
+
+N : sortie numérique (décimal)
+Ve : tension appliquée au convertisseur.
+q le quantum du convertisseur.
+N = Ve/q
+
+Résolution : 1/2^n
+
+f_ech (Te) = 2 * f_signal_analogique.
+q = Vref/(2^n-1)
+Vs = q*N
+
+Condensateurs :
+==============
+Capacité = Q (charge coulomb) / U (tension appliquée)
+Charge : uc = E*( 1 - e^(-t/(R*C)))
+Décharge : uc = E*(e^(-t/(R*C)))
+E est V (probablement).
+
+R*C = tau
+En charge, tau = 63%.
+En décharge, tau = 37%.
+tau en seconde.
+
